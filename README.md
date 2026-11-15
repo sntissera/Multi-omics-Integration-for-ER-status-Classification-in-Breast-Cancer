@@ -6,11 +6,11 @@ This project investigates whether integrating transcriptomic and DNA methylation
 
 ## Dataset
 
-RNA-seq: Gene expression data
+* RNA-seq: Gene expression data
 https://xenabrowser.net/datapages/?dataset=TCGA.BRCA.sampleMap%2FHiSeqV2&host=https%3A%2F%2Ftcga.xenahubs.net&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443
-DNA methylation: Illumina HumanMethylation27 beta values
+* DNA methylation: Illumina HumanMethylation27 beta values
 https://xenabrowser.net/datapages/?dataset=TCGA.BRCA.sampleMap%2FHumanMethylation27&host=https%3A%2F%2Ftcga.xenahubs.net&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443
-Clinical data: ER status labels
+* Clinical data: ER status labels
 https://xenabrowser.net/datapages/?dataset=TCGA.BRCA.sampleMap%2FBRCA_clinicalMatrix&host=https%3A%2F%2Ftcga.xenahubs.net&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443
 
 After matching samples across the three datasets and removing samples with missing or indeterminate ER status, the final cohort contains 307 samples with 238 ER-positive samples and 69 ER-negative samples. The above methylation platform was selected to keep the analysis computationally manageable on the available hardware.
